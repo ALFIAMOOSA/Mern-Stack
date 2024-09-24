@@ -40,19 +40,6 @@
 .read-the-docs {
   color: #888;
 } */
-
-
-/* .frame{
-  width:auto;
-  padding:20px;
-  border-radius:12px;
-  box-shadow:-3px 3px 29px;
-  margin:10px;
-} 
-.avatar{
-  border-radius:50%;
-} */
-
 .margin{
   margin-top: 10px;
 }
@@ -62,7 +49,7 @@
   font-size: 65px;
   width:100px;
   height: 100px;
-  box-shadow: 9px 3px 9px ,-3px 2px 3px;
+  box-shadow: 5px 3px 5px ,-3px 2px 3px;
 }
 .row_board{
   display: flex;

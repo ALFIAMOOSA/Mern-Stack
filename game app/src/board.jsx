@@ -23,20 +23,20 @@ function Board(){
         return null;
       }
     
-        const squareClick=(index)=>{
+    const squareClick=(index)=>{
     
-            let nextsquare=squares.slice();
-            if(xisNext){
-              nextsquare[index]="X"
-            }
-            else{
-              nextsquare[index]="O"
-            }
-            setSquare(nextsquare)
-            setxisNext(!xisNext)
-          }
-          const winner=calculateWinner(squares)
-  
+      let nextsquare=squares.slice();
+      if(xisNext){
+        nextsquare[index]="X"
+      }
+      else{
+        nextsquare[index]="O"
+      }
+      setSquare(nextsquare)
+      setxisNext(!xisNext)
+    }
+    const winner=calculateWinner(squares)
+
     return(
         <>
         <div className="row_board">
@@ -75,6 +75,7 @@ function Board(){
         <div>
             {winner&& ` Winner:${winner}`}
         </div>
+
         </>
     )
 }
